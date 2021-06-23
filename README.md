@@ -58,6 +58,8 @@ Operate TurtleBot3:
 
     $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
+![weiam Gazebo tb3](https://user-images.githubusercontent.com/63375443/123156753-53aae100-d472-11eb-8cad-1c516b567791.png)
+
 ------------------------------------------------------------------------------------------
 # SLAM
 
@@ -81,8 +83,16 @@ Run Teleoperation Node:
     
        $ export TURTLEBOT3_MODEL=waffle_pi
        $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+       
+       
+![weiam Teleoperation](https://user-images.githubusercontent.com/63375443/123156502-0b8bbe80-d472-11eb-8650-3bc311b03831.png)
+
+![weiam TB3](https://user-images.githubusercontent.com/63375443/123156333-d5e6d580-d471-11eb-85e0-2c0476ea5348.png)
+
 
 # Save Map:
 
     Open a new terminal
        $ rosrun map_server map_saver -f ~/map
+       
+![weiam MAP](https://user-images.githubusercontent.com/63375443/123156070-8a342c00-d471-11eb-95a7-8f04b90ebbc2.png)
