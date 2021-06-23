@@ -1,7 +1,18 @@
 # AI_TurtleBot3_task2
 This repository is for task 2 of the AI track of my summer training at Smart-Methods
 
-In this repository, I will be going through these main topics to be able to controll TURTLEBOT3_MODEL=waffle_pi ( or "burger" or "waffle" ) simulation in Rviz and Gazebo simultaneously using : "W  A  S  D  X
+In this repository, I will be going through these main topics to be able to controll and move the TURTLEBOT3_MODEL=waffle_pi (or "burger" or "waffle") simulation in Rviz and Gazebo simultaneously using : "W  A  S  D  X" here is the offical link of TurtleBot3 "https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup": 
+
+- Install Dependent ROS 1 Packages ( make sure to match your ROS edition, MINE IS MELODIC)
+- Install TurtleBot3 Packages
+- Set TurtleBot3 Model Name (waffle_pi / burger / waffle)
+- Install Gazebo Simulation Package
+- Launch Simulation World (waffle_pi / burger / waffle)
+- Operate TurtleBot3
+- Launch Simulation World
+- Run SLAM Node
+- Run Teleoperation Node
+- Save Map
 
 ---------------------------------------------------------------------------------------------
 # Basic setup ( make sure you already have ROS and Ubuntu 18.04 installed and running)
